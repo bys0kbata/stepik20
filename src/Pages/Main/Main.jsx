@@ -1,10 +1,12 @@
 
 import { nameCourse } from "../../Info/Info"
+import "./Main.scss"
 
 function ArrCourse(){
     const OneCourse = (props) =>{
         return(
-            <div className="OneCourse"> {props.name}</div>
+            <div className="OneCourse"> <button> ▷ </button >{props.name}</div>
+        
         )
 
     }

@@ -1,23 +1,59 @@
-@media  screen and (min-width : 360pх) {
-    
 
-}
+    .OneCourse {
+        border-color:#539700;
+        border-style: solid;
+        border-radius: 10px;
+        border-width: 2px;
+        background-color: #B7F46E ;
+        width: 93%;
+        padding: 1vh;
+        margin: 1vh;
+        button {
+            background-color: #B7F46E;
+            border-color: #B7F46E;
+            border-style: none;
+            color:#539700;
+        }
+        button:active{
+            background-color: aqua;
+        }
+
+    }
 @media  screen and (min-width : 768pх) {
-
+    .OneCourse {
+        background-color: hotpink;
+    }
 }
 @media  screen and (min-width: 1024px) {
-    
+    .OneCourse {
+        background-color: yellow;
+    }
         
 }
 @media  screen and (min-width: 1355px) {
-    
+    .OneCourse {
+        background-color: wheat;
+    }
         
 }
 @media  screen and (min-width: 1515px) {
-    
+    .OneCourse {
+        background-color: red;
+    }
         
 }
 @media  screen and (min-width: 1896px) {
-    
+    .OneCourse {
+        border-color:#539700;
+        border-style: solid;
+        border-radius: 10px;
+        border-width: 2px;
+        background-color: #B7F46E ;
+        width: max-content;
+        padding:2.5vw;
+    }
+    .ArrayCourse{
+        width: 25vw;
+    }
         
 }
