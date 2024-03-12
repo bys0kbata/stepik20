@@ -1,22 +1,38 @@
 
+import { useState } from "react"
 import { nameCourse } from "../../Info/Info"
+import  {HTMLModule} from "../../Info/Info"
 import "./Main.scss"
 
+
 function ArrCourse(){
+    const [ModuleVis, setMV]  = useState(false);
     const OneCourse = (props) =>{
         return(
-            <div className="OneCourse"> <button> ▷ </button >{props.name}</div>
-        
+            <div className="OneCourse"> <button onClick={()=>{e.preventDefault(); setMV(true);}}> ▷ </button >{props.name}</div>
         )
 
+    }
+    const MenuTeamCourse=(props)=>{
+        return(
+            <div className="AllModule" >
+                {props.menu.map((Module)=>{
+                    return(
+                        <button>{Module}</button>
+                    )
+                })}
+            </div>
+        )
     }
 
     return(
 
         <div className="ArrayCourse">
             {nameCourse.map((one)=>{
-                return(
-                <OneCourse name ={one} />)
+                return(<>
+                <OneCourse name ={one} />
+                <MenuTeamCourse menu =  {HTMLModule} />
+                </>)
 
             })}
         </div>
@@ -27,7 +43,8 @@ function ArrCourse(){
 
 export default function Main(){
 
-    return(
+    return(<>
      <ArrCourse />
+     </>
     )
 }
