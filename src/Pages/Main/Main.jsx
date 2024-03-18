@@ -7,9 +7,13 @@ import "./Main.scss"
 
 function ArrCourse(){
     const [ModuleVis, setMV]  = useState(false);
+   
     const OneCourse = (props) =>{
         return(
-            <div className="OneCourse"> <button onClick={()=>{e.preventDefault(); setMV(true);}}> ▷ </button >{props.name}</div>
+            <div>
+                <div className="OneCourse"> <button onClick={()=>{e.preventDefault(); setMV(true);}}> ▷ </button >{props.name}</div>
+                <MenuTeamCourse menu={props.menu} />
+            </div>
         )
 
     }
@@ -18,7 +22,7 @@ function ArrCourse(){
             <div className="AllModule" >
                 {props.menu.map((Module)=>{
                     return(
-                        <button>{Module}</button>
+                        <button onClick={()=>{console.log("/");}}>{Module}</button>
                     )
                 })}
             </div>
@@ -30,8 +34,7 @@ function ArrCourse(){
         <div className="ArrayCourse">
             {nameCourse.map((one)=>{
                 return(<>
-                <OneCourse name ={one} />
-                <MenuTeamCourse menu =  {HTMLModule} />
+                <OneCourse name ={one} menu ={HTMLModule}/>
                 </>)
 
             })}

@@ -1,8 +1,9 @@
-$colorbtnbackground: #B7F46E ;
+$colorbtnbackground: #B7F46E;
+$borderrad: 10px;
     .OneCourse {
         border-color:#539700;
         border-style: solid;
-        border-radius: 10px;
+        border-radius: $borderrad;
         border-width: 2px;
         background-color: $colorbtnbackground ;
         width: 93%;
@@ -15,30 +16,56 @@ $colorbtnbackground: #B7F46E ;
             color:#539700;
         }
         button:active{
-            background-color: aqua;
+            background-color: $colorbtnbackground;
         }
-
+    }
+    .AllModule{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #080808c5;
+        padding:1vh;
+        border-radius: $borderrad;
+        button{
+            margin:0.5vh;
+            border-radius: $borderrad;
+            width:max-content;
+            padding:0.25vh;
+        }
+        button:active{
+            background-color: $colorbtnbackground;
+        }
     }
 @media  screen and (min-width : 768pх) {
     .OneCourse {
-        background-color: hotpink;
+        background-color: $colorbtnbackground;
     }
 }
 @media  screen and (min-width: 1024px) {
     .OneCourse {
-        background-color: yellow;
+        background-color: $colorbtnbackground;
     }
-        
+    .AllModule{
+        display: flex;
+        flex-direction: row;
+    } 
 }
 @media  screen and (min-width: 1355px) {
     .OneCourse {
-        background-color: wheat;
+        background-color: $colorbtnbackground;
     }
-        
+    .AllModule{
+        display: flex;
+        flex-direction: row;
+    }
 }
 @media  screen and (min-width: 1515px) {
     .OneCourse {
-        background-color: red;
+        background-color: $colorbtnbackground;
+    }
+    .AllModule{
+        display: flex;
+        flex-direction: row;
     }
         
 }
@@ -48,17 +75,16 @@ $colorbtnbackground: #B7F46E ;
         border-style: solid;
         border-radius: 10px;
         border-width: 2px;
-<<<<<<< Updated upstream
-        background-color: #B7F46E ;
-=======
-        background-color: $colorbtnbackground  ;
+        background-color: $colorbtnbackground;
         width: 25%;
-        padding:2.5vw;
->>>>>>> Stashed changes
     }
     .ArrayCourse{
         width: 25vw;
         margin:auto;
+    }
+    .AllModule{
+        display: flex;
+        flex-direction: row;
     }
         
 }
