@@ -15,8 +15,9 @@ $borderrad: 10px;
             border-style: none;
             color:#539700;
         }
-        button:active{
+        button:focus{
             background-color: $colorbtnbackground;
+            transform: rotate(90deg);
         }
     }
     .AllModule{
