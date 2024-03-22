@@ -1,0 +1,20 @@
+{"data":[
+    {   
+        "id": 0,
+        "name":"HTML",
+        "AllModule": 5,
+        "nameModule": ["История Интернета","DOCTYPE", "Основные теги"]
+    },
+    {
+        "id": 1,
+        "name":"CSS",
+        "AllModule": 2,
+        "nameModule": ["Основы СSS", "Основные теги"]
+    },
+    {   "id": 2,
+        "name":"JS",
+        "AllModule": 3,
+        "nameModule": ["Установка","Node.js", "Основы JS"]
+    }
+
+]}
