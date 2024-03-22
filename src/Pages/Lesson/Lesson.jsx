@@ -1,3 +1,11 @@
 export default  function Lesson(){
-    return(<h2>Домашнее порно Тарасоа</h2>)
+    const Cheked = ()=>{
+        localStorage.getItem("Lesson");
+        localStorage.setItem("Lesson", )
+    }
+    return(
+    <>
+        <h2>Домашнее порно Тарасоа</h2>
+        <button>Изучено</button>
+    </>)
 }
