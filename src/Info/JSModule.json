@@ -1,9 +1,9 @@
 {"data":[
-    {"id":1,
+    {"lessonNum":1,
     "name":"Установка",
     "Material":""
     },
-    {"id":2,
+    {"lessonNum":2,
     "name":"Установка",
     "Material":""}
 ]}

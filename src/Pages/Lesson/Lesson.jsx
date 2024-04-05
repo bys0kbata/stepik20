@@ -5,7 +5,10 @@ export default  function Lesson(){
     }
     return(
     <>
-        <h2>Домашнее порно Тарасоа</h2>
-        <button>Изучено</button>
+        <h2>Домашнее </h2>
+        <p>
+            text
+        </p>
+        <button> Изучено</button>
     </>)
 }
