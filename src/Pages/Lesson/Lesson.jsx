@@ -9,15 +9,6 @@ export default  function Lesson(){
     const nameMod = searchParams.get("nameModule");
     const synth = window.speechSynthesis;
     return(
-<<<<<<< Updated upstream
-    <>
-        <h2>Домашнее </h2>
-        <p>
-            text
-        </p>
-        <button> Изучено</button>
-    </>)
-=======
     <div className="Lesson">
         {
             Info.data.map((one)=>{
@@ -39,5 +30,5 @@ export default  function Lesson(){
         }
     </div>
     )
->>>>>>> Stashed changes
+
 }
