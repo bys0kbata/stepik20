@@ -2,18 +2,21 @@
     {   
         "id": 0,
         "name":"HTML",
-        "AllModule": 5,
-        "nameModule": ["История Интернета","DOCTYPE", "Основные теги"]
+        "AllModule": 3,
+        "count":"countHTML",
+        "nameModule": ["История Интернета","DOCTYPE", "Теги"]
     },
     {
         "id": 1,
         "name":"CSS",
         "AllModule": 2,
-        "nameModule": ["Основы СSS", "Основные теги"]
+        "count":"countCSS",
+        "nameModule": ["Основы", "Свойства"]
     },
     {   "id": 2,
         "name":"JS",
         "AllModule": 3,
+        "count":"countJS",
         "nameModule": ["Установка","Node.js", "Основы JS"]
     }
 

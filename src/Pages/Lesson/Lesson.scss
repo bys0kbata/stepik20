@@ -1,0 +1,33 @@
+$colorbtnbackground: #89ed0f;
+.Lesson{
+    h1{ color:$colorbtnbackground;
+    text-align: center;}
+    button{
+        font-size: 1.4vh;
+        width: max-content;
+        color: #166a7d;
+        margin: 1vh;
+        border-radius: 20px;
+        border-style: solid;
+        background-color: white;
+        border-color: #166a7d;
+        padding: 0.5vh;
+    }
+    button:hover{
+        background-color: #166a7d;
+        color:white;
+    }
+    button:active{
+        background-color: #7d1616;
+        border-color: #7d1616;
+        color:white;
+    }
+    .Text{
+        margin: 1vh;
+        font-style: normal ;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        line-height: normal;
+
+    }
+
+}
